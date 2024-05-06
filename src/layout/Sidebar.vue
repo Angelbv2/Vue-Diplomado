@@ -74,6 +74,22 @@ let handleWindowResize = () => {
                                 <p>Buttons</p>
                             </div>
                         </router-link>
+                        <router-link to="/components/table" tag="li" class="nav-item">
+                            <div class="nav-item-hold">
+                                <i class="i-Filter-2 text-3xl"></i>
+                                <p>Table</p>
+                            </div>
+                        </router-link>
+                        <router-link
+                            to="/components/grafico"
+                            tag="li"
+                            class="nav-item"
+                        >
+                            <div class="nav-item-hold">
+                                <i class="i-Bar-Chart text-3xl"></i>
+                                <p>Graficos</p>
+                            </div>
+                        </router-link>
                         <router-link
                             to="/profile/profileTwo"
                             tag="li"

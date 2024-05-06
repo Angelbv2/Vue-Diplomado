@@ -45,6 +45,18 @@ const routes = [
                         component: () =>
                             import('../views/components/Button.vue'),
                     },
+                    {
+                        path: 'table',
+                        name: 'Tables',
+                        component: () =>
+                            import('../views/components/Table.vue'),
+                    },
+                    {
+                        path: 'grafico',
+                        name: 'Grafico',
+                        component: () =>
+                            import('../views/components/Grafico.vue'),
+                    },
                 ],
             },
             {
